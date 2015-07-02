@@ -112,3 +112,32 @@ a {
     color: green;
     text-decoration: none;
 }
+
+/* zi */
+
+.list .item{
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.sort{
+    display:none;
+}
+
+.list .item .name{
+    display: inline;
+    color: #309FFC;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+}
+
+.list .item .name:hover{
+    color: #FC9F33;
+}
+
+.list .item .description{
+    font-size: 12px;
+    color: #555;
+}
